@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = SolidusBlankFrontend::VERSION
   spec.authors       = ["Marko Bošković"]
   spec.email         = ["bosskovic@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{ Mounts Spree::Fronted::Engine because some solidus gems wont work as expected when the frontend is removed.}
+  spec.description   = spec.summary
   spec.homepage      = ""
   spec.license       = "MIT"
 
